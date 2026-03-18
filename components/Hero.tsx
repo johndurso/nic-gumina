@@ -189,7 +189,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.35 }}
-          className="text-6xl md:text-8xl font-black text-white mb-4 tracking-tight leading-none"
+          className="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-black text-white mb-4 tracking-tight leading-none"
         >
           Nic{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-300">
@@ -278,7 +278,7 @@ export default function Hero() {
 
       {/* ── Scroll indicator ── */}
       <motion.div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
+        className="absolute bottom-10 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: [0, 8, 0] }}
         transition={{ opacity: { delay: 1.4, duration: 0.6 }, y: { delay: 1.4, duration: 1.8, repeat: Infinity, ease: "easeInOut" } }}
