@@ -109,7 +109,7 @@ export default function About() {
                 href="https://www.linkedin.com/in/nic-gumina/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 btn-outline-cyan px-8 py-4 rounded-xl text-base"
+                className="inline-flex items-center gap-3 btn-outline-cyan px-4 py-2 rounded-xl text-base"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

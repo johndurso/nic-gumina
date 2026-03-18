@@ -48,7 +48,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/nic-gumina/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 btn-cyan px-10 py-5 rounded-xl text-lg group mx-auto"
+            className="inline-flex items-center gap-3 btn-cyan px-8 py-4 rounded-xl text-md group mx-auto"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

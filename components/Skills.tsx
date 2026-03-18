@@ -121,7 +121,7 @@ export default function Skills() {
         <div className="text-center">
           <Link
             href="/skills"
-            className="inline-flex items-center gap-3 btn-cyan px-10 py-4 rounded-xl text-base group"
+            className="inline-flex items-center gap-3 btn-cyan px-6 py-3 rounded-xl text-base group"
           >
             Learn More About My Skills
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />

@@ -255,11 +255,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          className="flex flex-row gap-4 justify-center items-center"
         >
           <motion.a
             href="#skills"
-            className="btn-cyan px-8 py-4 rounded-lg text-base"
+            className="btn-cyan px-4 py-2 rounded-lg text-base"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
           >
@@ -267,7 +267,7 @@ export default function Hero() {
           </motion.a>
           <motion.a
             href="#contact"
-            className="btn-outline-cyan px-8 py-4 rounded-lg text-base"
+            className="btn-outline-cyan px-4 py-2 rounded-lg text-base"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
           >
