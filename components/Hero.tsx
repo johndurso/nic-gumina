@@ -189,7 +189,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.35 }}
-          className="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-black text-white mb-4 tracking-tight leading-none"
+          className="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-black text-white mb-4 tracking-tight leading-none mt-50 sm:mt-0"
         >
           Nic{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-300">
@@ -205,7 +205,7 @@ export default function Hero() {
           className="flex items-center justify-center gap-3 mb-3"
         >
           <Briefcase className="w-5 h-5 text-cyan-400" />
-          <p className="text-xl md:text-2xl font-semibold text-slate-200 tracking-wide">
+          <p className="text-sm sm:text-lg md:text-xl font-semibold text-slate-200 tracking-wide">
             Cloud Security Consultant
           </p>
         </motion.div>
@@ -218,9 +218,9 @@ export default function Hero() {
           className="flex items-center justify-center gap-3 mb-10"
         >
           <MapPin className="w-4 h-4 text-cyan-400/70" />
-          <p className="text-lg text-slate-400 font-medium">
+          <p className="text-xs sm:text-2xl text-slate-400 font-medium">
             at{" "}
-            <span className="text-cyan-400 font-bold tracking-wide">
+            <span className="text-sm sm:text-lg text-cyan-400 font-bold tracking-wide">
               Amazon Web Services (AWS)
             </span>
           </p>
@@ -243,11 +243,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.88 }}
-          className="text-slate-400 text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-slate-400 text-md md:text-lg max-w-xl mx-auto text-center mb-12 leading-relaxed"
         >
-          Securing cloud infrastructure, identifying vulnerabilities, and
-          empowering organizations to build resilient, compliant, and secure
-          systems on AWS.
+          Securing cloud infrastructure, identifying vulnerabilities, and empowering organizations to build resilient, compliant, and secure systems on AWS.
         </motion.p>
 
         {/* CTA Buttons */}
