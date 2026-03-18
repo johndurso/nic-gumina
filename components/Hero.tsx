@@ -184,23 +184,6 @@ export default function Hero() {
          ══════════════════════════════ */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
 
-        {/* Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2 bg-cyan-400/10 border border-cyan-400/30 rounded-full px-4 py-2 mb-8 backdrop-blur-sm"
-        >
-          <motion.div
-            className="w-2 h-2 bg-cyan-400 rounded-full"
-            animate={{ scale: [1, 1.4, 1], opacity: [1, 0.5, 1] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-          />
-          <span className="text-cyan-400 text-sm font-medium tracking-wide">
-            Available for Security Engagements
-          </span>
-        </motion.div>
-
         {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
