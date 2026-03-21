@@ -13,18 +13,19 @@ import {
 const skillDetails = [
   {
     icon: Shield,
-    title: "Enterprise App Pentesting",
+    title: "Container & Orchestration Security",
     tag: "Offensive Security",
     summary:
-      "Comprehensive penetration testing of enterprise-grade applications to uncover critical vulnerabilities before threat actors can exploit them.",
+      "Comprehensive penetration testing of containerized environments and orchestration platforms to uncover critical vulnerabilities before threat actors can exploit them.",
     details: [
-      "Full-scope black-box, grey-box, and white-box penetration testing of web, mobile, and desktop enterprise applications.",
-      "Exploitation of business logic flaws, authentication bypasses, privilege escalation, and injection vulnerabilities.",
-      "Testing aligned with OWASP Top 10, PTES (Penetration Testing Execution Standard), and NIST SP 800-115.",
-      "Detailed reporting with CVSS scoring, proof-of-concept exploits, and prioritized remediation guidance.",
+      "Full-scope black-box, grey-box, and white-box penetration testing of Kubernetes clusters, including control plane components, RBAC policies, and node-level attack surfaces.",
+      "Exploitation of container escape vulnerabilities, misconfigured pod security contexts, exposed Docker sockets, and overprivileged service accounts.",
+      "Kubernetes-specific attack chain simulation: from initial foothold in a compromised pod through lateral movement to cluster-admin escalation.",
+      "Testing aligned with the OWASP Kubernetes Top 10, CIS Kubernetes Benchmark, and NIST SP 800-190 (Application Container Security Guide).",
+      "Detailed reporting with CVSS scoring, proof-of-concept exploits, and prioritized remediation guidance covering both runtime and infrastructure layers.",
       "Post-remediation validation testing to confirm fixes are effective and no regressions introduced.",
     ],
-    tools: ["Burp Suite Pro", "Metasploit", "OWASP ZAP", "Nmap", "SQLMap"],
+    tools: ["Trivy", "Falco", "kube-bench", "Metasploit", "Peirates", "Deepce", "Nmap"],
   },
   {
     icon: Code2,

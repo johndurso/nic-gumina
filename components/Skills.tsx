@@ -12,9 +12,9 @@ import {
 const skills = [
   {
     icon: Shield,
-    title: "Enterprise App Pentesting",
+    title: "Container & Orchestration Security",
     description:
-      "Comprehensive penetration testing of enterprise-grade applications to uncover critical vulnerabilities before threat actors can exploit them.",
+      "Comprehensive penetration testing of containerized environments and orchestration platforms to uncover critical vulnerabilities before threat actors can exploit them.",
     tag: "Offensive Security",
   },
   {
