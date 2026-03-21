@@ -74,7 +74,7 @@ export default function About() {
           <div>
             <div className="section-accent mb-4" />
             <p className="text-cyan-400 text-sm font-semibold tracking-widest uppercase mb-3">
-              About Me
+              About Nic
             </p>
             <h2 className="text-4xl md:text-5xl font-black text-white mb-8">
               Securing the{" "}
@@ -85,21 +85,11 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-slate-400 text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur, excepteur sint occaecat cupidatat non proident.
+                Nic Gumina is a Cloud Security Consultant at Amazon Web Services (AWS), based in the Detroit Metropolitan Area. Passionate about all things security, Nic has a particular focus on containers and helping organizations build secure, scalable cloud infrastructure. With a deep understanding of the AWS ecosystem, he works alongside enterprise teams to identify vulnerabilities, implement best practices, and strengthen their overall security posture.
               </p>
 
               <p className="text-slate-400 text-lg leading-relaxed">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt.
+                Nic is also an active contributor to the broader cloud security community. He has co-authored technical content on the AWS Partner Network Blog, tackling real-world challenges such as secret sprawl, where unmanaged secrets proliferate across development environments, source code repositories, and infrastructure components, creating security vulnerabilities and compliance risks. Whether advising clients or sharing knowledge through published work, Nic is dedicated to making cloud environments safer for organizations of all sizes.
               </p>
             </div>
 

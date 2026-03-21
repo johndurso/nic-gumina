@@ -218,7 +218,7 @@ export default function Hero() {
           className="flex items-center justify-center gap-3 mb-10"
         >
           <MapPin className="w-4 h-4 text-cyan-400/70" />
-          <p className="text-xs sm:text-2xl text-slate-400 font-medium">
+          <p className="text-xs sm:text-normal text-slate-400 font-medium">
             at{" "}
             <span className="text-sm sm:text-lg text-cyan-400 font-bold tracking-wide">
               Amazon Web Services (AWS)

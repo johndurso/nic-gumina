@@ -75,32 +75,6 @@ export default function Contact() {
             <span className="text-cyan-400 font-medium">nic-gumina</span>
           </p>
         </div>
-
-        {/* Info cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="bg-[#020817]/60 border border-cyan-400/10 rounded-2xl p-6 flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-cyan-400/10 flex items-center justify-center flex-shrink-0">
-              <Linkedin className="w-6 h-6 text-cyan-400" />
-            </div>
-            <div className="text-left">
-              <p className="text-white font-semibold text-sm">LinkedIn</p>
-              <p className="text-slate-500 text-xs">Primary contact channel</p>
-            </div>
-          </div>
-          <div className="bg-[#020817]/60 border border-cyan-400/10 rounded-2xl p-6 flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-cyan-400/10 flex items-center justify-center flex-shrink-0">
-              <Mail className="w-6 h-6 text-cyan-400" />
-            </div>
-            <div className="text-left">
-              <p className="text-white font-semibold text-sm">
-                Security Engagements
-              </p>
-              <p className="text-slate-500 text-xs">
-                AWS cloud security consulting
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

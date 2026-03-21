@@ -57,7 +57,7 @@ export default function Webinars() {
             </span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-lg leading-relaxed">
-            Sharing my cloud security expertise through webinars, panels, and published content with the broader security community.
+            Nic's cloud security expertise through webinars, panels, and published content with the broader security community.
           </p>
         </div>
 
