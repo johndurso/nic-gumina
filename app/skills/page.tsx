@@ -11,21 +11,21 @@ import {
 } from "lucide-react";
 
 const skillDetails = [
-  {
+    {
     icon: Shield,
     title: "Container & Orchestration Security",
-    tag: "Offensive Security",
+    tag: "Platform Security",
     summary:
-      "Comprehensive penetration testing of containerized environments and orchestration platforms to uncover critical vulnerabilities before threat actors can exploit them.",
+      "Securing container and Kubernetes ecosystems end-to-end — from hardening orchestration layers and microservices architecture to embedding security throughout the cloud-native development lifecycle.",
     details: [
-      "Full-scope black-box, grey-box, and white-box penetration testing of Kubernetes clusters, including control plane components, RBAC policies, and node-level attack surfaces.",
-      "Exploitation of container escape vulnerabilities, misconfigured pod security contexts, exposed Docker sockets, and overprivileged service accounts.",
-      "Kubernetes-specific attack chain simulation: from initial foothold in a compromised pod through lateral movement to cluster-admin escalation.",
-      "Testing aligned with the OWASP Kubernetes Top 10, CIS Kubernetes Benchmark, and NIST SP 800-190 (Application Container Security Guide).",
-      "Detailed reporting with CVSS scoring, proof-of-concept exploits, and prioritized remediation guidance covering both runtime and infrastructure layers.",
-      "Post-remediation validation testing to confirm fixes are effective and no regressions introduced.",
+      "Design and hardening of Kubernetes clusters including control plane configuration, RBAC policies, network policies, pod security standards, and node-level attack surface reduction.",
+      "End-to-end security architecture for microservices environments: service mesh configuration, mTLS enforcement, secret management, and inter-service authorization.",
+      "Container image security across the full supply chain — from base image hardening and Dockerfile best practices to registry scanning and runtime threat detection.",
+      "Orchestration security assessments covering misconfigured pod security contexts, overprivileged service accounts, exposed Docker sockets, and container escape vectors.",
+      "Embedding security into cloud-native development lifecycles via admission controllers, policy-as-code frameworks, and automated scanning gates in CI/CD pipelines.",
+      "Scalable platform security architecture designed to grow with engineering teams without becoming a bottleneck — security as an enabler, not a blocker.",
     ],
-    tools: ["Trivy", "Falco", "kube-bench", "Metasploit", "Peirates", "Deepce", "Nmap"],
+    tools: ["Trivy", "Falco", "kube-bench", "OPA/Gatekeeper", "Peirates", "Deepce", "Helm"],
   },
   {
     icon: Code2,

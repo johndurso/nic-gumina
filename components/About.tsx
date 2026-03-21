@@ -85,7 +85,7 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-slate-400 text-lg leading-relaxed">
-                Nic Gumina is a Cloud Security Consultant at Amazon Web Services (AWS), based in the Detroit Metropolitan Area. Passionate about all things security, Nic has a particular focus on containers and helping organizations build secure, scalable cloud infrastructure. With a deep understanding of the AWS ecosystem, he works alongside enterprise teams to identify vulnerabilities, implement best practices, and strengthen their overall security posture.
+                Nic Gumina has been in the InfoSec realm of the professional world for over 10 years. He's a Cloud Security Consultant at Amazon Web Services (AWS), based in the Detroit Metropolitan Area. Passionate about all things security, Nic has a particular focus on containers and helping organizations build secure, scalable cloud infrastructure. With a deep understanding of the AWS ecosystem, he works alongside enterprise teams to identify vulnerabilities, implement best practices, and strengthen their overall security posture.
               </p>
 
               <p className="text-slate-400 text-lg leading-relaxed">
