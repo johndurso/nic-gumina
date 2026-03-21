@@ -14,8 +14,8 @@ const skills = [
     icon: Shield,
     title: "Container & Orchestration Security",
     description:
-      "Comprehensive penetration testing of containerized environments and orchestration platforms to uncover critical vulnerabilities before threat actors can exploit them.",
-    tag: "Offensive Security",
+      "Securing container and Kubernetes ecosystems end-to-end — from hardening orchestration layers and microservices architecture to embedding security throughout the cloud-native development lifecycle.",
+    tag: "Platform Security",
   },
   {
     icon: Code2,
